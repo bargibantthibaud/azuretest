@@ -1,0 +1,30 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "tibofactory"
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"FileServer1_password": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://tibostockage.dfs.core.windows.net/"
+		},
+		"FileServer1_properties_typeProperties_host": {
+			"value": "C:\\Users\\tbargibant\\Desktop\\Ecole de la data\\azure"
+		},
+		"FileServer1_properties_typeProperties_userId": {
+			"value": "BETD\\tbargibant"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
