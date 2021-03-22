@@ -1,5 +1,13 @@
 {
 	"name": "tibofactory",
+	"properties": {
+		"globalParameters": {
+			"Directory": {
+				"type": "string",
+				"value": "Directory"
+			}
+		}
+	},
 	"location": "francecentral",
 	"identity": {
 		"type": "SystemAssigned",
